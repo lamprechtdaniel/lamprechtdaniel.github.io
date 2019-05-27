@@ -1,41 +1,66 @@
-<html>
+<!DOCTYPE html lang="german">
 <head>
     <title>Graz</title>
     <link rel="stylesheet" href="mystyle.css">
 </head>
 <body>
     <div id="main">
-        <header>
+        <nav class="navigation">
+            <ul>
+                <li><a href="index.html" class="active">Startseite</a></li>
+                <li><a href="sites.html">Sehensw&uuml;rdigkeiten</a></li>
+                <li><a href="education.html">Höhere Bildungseinrichtungen</a></li>
+                <li>
+                    <a href="https://de.wikipedia.org/wiki/Graz" target="_blank">
+                        <img id="wikiimage" src="media/wikipedia.jpg" alt="Wikipedia">
+                    </a>
+                </li>
+                <li>
+                    <a href="copyright.html">
+                        ©
+                    </a>
+                </li>
+            </ul>  
+        </nav>
+        <header> 
             <h1 class="mainheading">Graz</h1>
         </header>
         <main>
-            <section>
-                <h2>Über Graz</h2>
-                <article>
-                    <h3>Allgemeines</h3>
-                    <p>Graz ist die Hauptstadt der Steiermark, eines von 9 Bundesländern Österreichs.</p>
-                </article>
-                <article>
-                    <h3>Einwohner</h3>
-                    <p>Graz hat zum jetzigen Zeitpunkt ... Einwohner</p>
-                </article>
-                <article>
-                    <h3>Mehr über Graz</h3>
-                    <nav>
-                        <ul>
-                            <li><a href="sites.html">Sehensw&uuml;rdigkeiten</a></li>
-                            <li><a href="education.html">Höhere Bildungseinrichtungen</a></li>
-                            <li>
-                                <a href="https://de.wikipedia.org/wiki/Graz" target="_blank">
-                                    <img src="media/wikipedia.jpg" alt="Wikipedia" width="50px" height="50px">
-                                </a>
-                            </li>
-                        </ul>
-                    </nav>
-                </article>
-                <img id="mainimage"src="media/uhrturm.jpg" alt="Uhrturm">
-                
-                
+            <div id="leftdiv">
+                    <section>
+                            <h2>Über Graz</h2>
+                            <article>
+                                <h3>Allgemeines</h3>
+                                <p>Graz ist die Landeshauptstadt der Steiermark, eines von 9 Bundesländern Österreichs. Graz liegt im Grazer becken und wird von der Mur durchquert. Mit rund 60.000 Studierenden hat sich Graz zu einer Universitätsstadt entwickelt.</p>
+                            </article>
+                            <article>
+                                <h3>Einwohner</h3>
+                                <p>Graz hat zum jetzigen Zeitpunkt 290.000 Einwohner. Die Region Graz mit Umgebung hatte 2017 rund 630.000 Einwohner, womit diese Region in den letzten 10 Jahren der am schnellsten wachstenste Ballungsraum &Ouml;sterreichs ist.</p>
+                            </article>
+                            <article>
+                                    <h3>Bezirke</h3>
+                                    <p>Die Stadt Graz besteht insgesamt aus 17 Bezirken. Der erste Bezirk (Innere Stadt), ist der Mittelpunkt aller anderer Bezirke, welche sich gegen den Uhrzeigersinn um diesen reihen. Die 6 Kernbezirke sind 1. Innere Stadt, 2. St. Leonhard, 3. Geidorf, 4. Lend, 5. Gries, 6. Jakomini)</p>
+                            </article>
+                    </section>
+            </div>
+            <div id="rightdiv">
+                    <img id="mainimage" src="media/uhrturm.jpg" alt="Uhrturm">
+                    <br>
+                    <div id="imagedivrow">
+                        <div class="imagedivcolumn">
+                            <img src="media/rathaus.jpg" alt="Rathaus">
+                        </div>
+                        <div class="imagedivcolumn">
+                            <img src="media/kunsthaus.jpg" alt="Kunsthaus">
+                        </div>
+                        <div class="imagedivcolumn">
+                            <img src="media/schlossberg.jpg" alt="Schlossberg">
+                        </div>
+                        <div class="imagedivcolumn">
+                            <img src="media/murinsel.jpg" alt="Murinsel">
+                        </div>
+                    </div>
+            </div>  
             </section>
         </main>
     </div>
