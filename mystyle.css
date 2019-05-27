@@ -33,12 +33,17 @@ td {
     text-align: left;
 }
 
+.navigation {
+    
+}
+
 .navigation ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
+    border-radius: 10px;
   }
   
 .navigation li {
@@ -72,6 +77,7 @@ iframe {
     margin-right: auto;
     width: 80%;
     height: 60%;
+    border-radius: 10px;
 }
 
 .mainheading {
@@ -83,6 +89,7 @@ iframe {
     width: 99%;
     padding: 0.5%;
     background-color: darkslategray;
+    border-radius: 10px;
 }
 
 #wikiimage {
@@ -91,28 +98,33 @@ iframe {
 }
 
 #imagedivrow {
-    
     width: 100%;
-    
 }
-
-
 
 .imagedivcolumn img {
     float: left;
     width: 49%;
-    height: 35%;
-    min-width: 350px;
+    height: 30%;
+    min-width: 300px;
+    border-radius: 5px;
     background-color:darkslategray;
     padding: 0.5%;
 }
 
 #leftdiv {
     float: left;
-    width: 60%;
+    width: 55%;
+    margin-left: 4%;
+    margin-right: 1%;
+    background-color: darkslategray;
+    color: white;
+    border-radius: 10px;
+
 }
 
 #rightdiv {
+    display: block;
     float: right;
-    width: 40%;
+    width: 36%;
+    margin-right: 4%;
 }
