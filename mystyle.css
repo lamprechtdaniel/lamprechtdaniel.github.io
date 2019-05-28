@@ -139,3 +139,28 @@ iframe {
 a {
     color: whitesmoke;
 }
+
+#travelrowdiv {
+    width: 60%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.travelcoldiv {
+    width: 25%;
+    height: 45%;
+    background-color: darkslategray;
+    border-radius: 10px;
+    float: left;
+    margin: 4.16%;
+    color: white;
+}
+
+.travelimage {
+    width: 25%;
+    margin-left: 37.5%;
+    margin-top: 10%;
+    margin-right: 37.5%;
+    height: 30%;  
+    min-width: 80px;
+}
