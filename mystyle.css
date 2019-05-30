@@ -1,3 +1,4 @@
+/* styling of tags */
 body {
     background-color: #ccffcc;
 }
@@ -33,10 +34,19 @@ td {
     text-align: center;
 }
 
-.navigation {
-    
+iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 60%;   
 }
 
+a {
+    color: whitesmoke;
+}
+
+/* styling of navigation-bar */
 .navigation ul {
     list-style-type: none;
     margin: 0;
@@ -56,12 +66,11 @@ td {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-  }
+}
   
-  /* Change the link color to #111 (black) on hover */
 .navigation li a:hover {
     background-color: #111;
-  }
+}
 
 .navigation li a.active {
     background-color: darkcyan;
@@ -71,19 +80,8 @@ td {
     float: right;
 }
 
-iframe {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    height: 60%;
-    border-radius: 10px;
-}
-
-.mainheading {
-    color: dark;
-}
-
+/* styling of elements with certain id */
+/* images */
 #mainimage {
     display: block;
     width: 99%;
@@ -97,19 +95,11 @@ iframe {
     height: 18px;
 }
 
-#imagedivrow {
-    width: 100%;
-}
-
-.imagedivcolumn img {
-    float: left;
-    width: 49%;
-    height: 25%;
-    min-width: 250px;
-    min-height: 150px;
-    border-radius: 5px;
-    background-color:darkslategray;
-    padding: 0.5%;
+/* divisions */
+#main {
+    background-color: darkslategray;
+    color: white;
+    border-radius: 10px;
 }
 
 #leftdiv {
@@ -120,7 +110,6 @@ iframe {
     background-color: darkslategray;
     color: whitesmoke;
     border-radius: 10px;
-
 }
 
 #rightdiv {
@@ -130,20 +119,32 @@ iframe {
     margin-right: 4%;
 }
 
-#main {
-    background-color: darkslategray;
-    color: white;
-    border-radius: 10px;
-}
-
-a {
-    color: whitesmoke;
+#imagedivrow {
+    width: 100%;
 }
 
 #travelrowdiv {
     width: 60%;
     margin-left: 10%;
     margin-right: 10%;
+}
+
+/* styling of elements with certain class */
+/* heading */
+.mainheading {
+    color: black;
+}
+
+/* divisions */
+.imagedivcolumn img {
+    float: left;
+    width: 49%;
+    height: 25%;
+    min-width: 250px;
+    min-height: 150px;
+    border-radius: 5px;
+    background-color:darkslategray;
+    padding: 0.5%;
 }
 
 .travelcoldiv {
@@ -161,6 +162,20 @@ a {
     margin-left: 37.5%;
     margin-top: 10%;
     margin-right: 37.5%;
-    height: 30%;  
+    height: 25%;  
     min-width: 80px;
+    min-height: 80px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
