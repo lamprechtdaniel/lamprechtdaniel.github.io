@@ -139,9 +139,8 @@ a {
 .imagedivcolumn img {
     float: left;
     width: 49%;
-    height: 35%;
     min-width: 250px;
-    min-height: 200px;
+    min-height: 250px;
     border-radius: 5px;
     background-color:darkslategray;
     padding: 0.5%;
