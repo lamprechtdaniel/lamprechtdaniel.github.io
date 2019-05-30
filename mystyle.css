@@ -39,7 +39,7 @@ iframe {
     margin-left: auto;
     margin-right: auto;
     width: 80%;
-    height: 60%;   
+    height: 600px;   
 }
 
 a {
@@ -91,8 +91,8 @@ a {
 }
 
 #wikiimage {
-    width: 20px;
-    height: 18px;
+    width: 16px;
+    height: 14px;
 }
 
 /* divisions */
@@ -139,9 +139,9 @@ a {
 .imagedivcolumn img {
     float: left;
     width: 49%;
-    height: 25%;
+    height: 35%;
     min-width: 250px;
-    min-height: 150px;
+    min-height: 200px;
     border-radius: 5px;
     background-color:darkslategray;
     padding: 0.5%;
@@ -149,7 +149,7 @@ a {
 
 .travelcoldiv {
     width: 25%;
-    height: 45%;
+    min-height: 270px;
     background-color: darkslategray;
     border-radius: 10px;
     float: left;
